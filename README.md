@@ -1,6 +1,6 @@
 # RNAtox
 
-<img src="graphic_abstract_4.png" alt="drawing" width="200"/>
+<img src="graphical_abstract_7.png" alt="drawing" width="200"/>
 
 RNAtox is a code to classify the caspase toxicity and gene knockdown of antisense oligonucleotide (ASO) sequences and generate explanations of k-mers that cause caspase toxicity and gene knockdown using Local Interpretable Model-Agnostic Explanations (LIME), Anchors explanations, and SHapley Additive exPlanations (SHAP).
 
