@@ -2,6 +2,8 @@
 
 <img src="graphical_abstract_7.png" alt="drawing" width="200"/>
 
+[![DOI](https://zenodo.org/badge/1032157018.svg)](https://doi.org/10.5281/zenodo.16741167)
+
 RNAtox is a code to classify the caspase toxicity and gene knockdown of antisense oligonucleotide (ASO) sequences and generate explanations of k-mers that cause caspase toxicity and gene knockdown using Local Interpretable Model-Agnostic Explanations (LIME), Anchors explanations, and SHapley Additive exPlanations (SHAP).
 
 The RNAtox framework is highly versatile (coded in Google Colab and Jupyter Notebook), with options that can be further developed and optimized by the users: it can accept any user-defined datasets (or datasets available in any repository). It uses pyTorch library for tensor computation with GPU acceleration. The architecture of the classifier is composed of five principal components: (1) a Temporal Convolutional Network (TCN) branch, (2) a projection and attention mechanism applied to RNA-FM embeddings from RNA_FM_T12 foundation model from the RNA-FM library, a 12-layer transformer pre-trained on large RNA corpora, (3) a feature fusion module, (4) a multi-layer LSTM block, and (5) a fully connected classification head. The classifier model was analyzed with different metrics (precision, accuracy, recall, MCC, F1 scores, Matthews correlation coefficient (MCC), and Cohen’s kappa score. Then, the confusion matrix is visualized.
@@ -28,7 +30,7 @@ Or
 
 # License
 
-RNAtox is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/RNAtox ()
+RNAtox is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/RNAtox (https://doi.org/10.5281/zenodo.16741167)
 
 # Contributors
 
